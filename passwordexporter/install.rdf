@@ -5,9 +5,10 @@
 
     <Description about="urn:mozilla:install-manifest">
         <em:id>{B17C1C5A-04B1-11DB-9804-B622A1EF5492}</em:id>
-        <em:version>1.3.1</em:version>
+        <em:version>1.3.3</em:version>
         <em:type>2</em:type>
         <em:bootstrap>true</em:bootstrap>
+        <em:multiprocessCompatible>true</em:multiprocessCompatible>
         <em:name>Password Exporter</em:name>
         <em:creator>Justin Scott</em:creator>
 
@@ -48,6 +49,38 @@
         <!-- Other Contributors -->
         <em:contributor>Thanks to the following people for their help and advice:</em:contributor>
         <em:contributor>Justin Dolske</em:contributor>
+        <em:contributor>Philip Chee</em:contributor>
+        <em:contributor>Jorge Villalobos</em:contributor>
+
+        <!-- Mozilla Firefox -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>38.0</em:minVersion>
+                <em:maxVersion>53.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <!-- Mozilla Thunderbird -->
+        <em:targetApplication>
+            <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>31.0</em:minVersion>
+                <em:maxVersion>53.*</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+
+        <!-- Seamonkey -->
+        <em:targetApplication>
+          <Description>
+            <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+            <em:minVersion>2.00</em:minVersion>
+            <em:maxVersion>2.99</em:maxVersion>
+          </Description>
+        </em:targetApplication>
+    </Description>
+</RDF>
+
         <em:contributor>Philip Chee</em:contributor>
         <em:contributor>Jorge Villalobos</em:contributor>
 
